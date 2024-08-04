@@ -166,9 +166,23 @@ table {
     background-color: #E25E5E;
 } 
 
+.hamburger {
+    margin-left: auto;
+    cursor: pointer;
+}
+/*
+.hamburger img {
+    width: 30px;
+}
+*/
 /* Header END */
 
 /* Responsive START */
+@media screen and (min-width: 851px) {
+    .hamburger {
+        display: none;
+    }
+
 @media screen and (max-width: 992px) {
     .header-top-phone {
         margin-right: 28px;

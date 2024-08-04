@@ -6,4 +6,6 @@ My copy: <https://www.figma.com/design/wDNnjn9QRCtuvgmfJIX7w1/Dental-Tooth-(Copy
 
 ## Section 1: Header Top
 
-## Section 2: Header bottom
+## Section 2: Header Bottom
+
+## Section 3: Header Responsive Disign

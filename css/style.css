@@ -54,6 +54,7 @@ table {
 .container {
     max-width: 1200px;
     margin: 0 auto;
+    padding: 0 20px;
 }
 
 /* Header START */
@@ -167,3 +168,27 @@ table {
 
 /* Header END */
 
+/* Responsive START */
+@media screen and (max-width: 992px) {
+    .header-top-phone {
+        margin-right: 28px;
+    }
+
+    .header-top-social  {
+        column-gap: 24px;
+    }
+
+    .menu-nav ul {
+        column-gap: 24px;
+    }
+
+@media screen and (max-width: 850px) {
+    .header-top-right,
+    .menu-nav {
+        display: none;
+
+    }    
+
+}
+
+/* Responsive END */

@@ -308,6 +308,37 @@ h1 {
     max-width: 485px;    
 }
 
+.hero-logo {
+    position:absolute;
+    top: 175px;
+    right: -90px;
+}
+
+.hero-right {
+    position: relative;
+    margin-left: auto;
+    margin-right: 154px;
+}
+
+.hero-image {
+    max-width: 483px;
+    position: relative;
+    z-index: 1;
+}
+
+.hero-circle {
+    width: 218px;
+    height: 22px;   
+    display: block;
+    background-color: #fff;
+    box-shadow: 0px 4px 133px 239px rgba(255, 255, 255, 0.1);
+    position: absolute;
+    top: 330px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 100%;
+}
+
 /* Hero END */
 
 /* Responsive START */

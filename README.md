@@ -9,3 +9,5 @@ My copy: <https://www.figma.com/design/wDNnjn9QRCtuvgmfJIX7w1/Dental-Tooth-(Copy
 ## Section 2: Header Bottom
 
 ## Section 3: Header Responsive Disign
+
+## Section 4: Hero

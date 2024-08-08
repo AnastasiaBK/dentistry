@@ -36,6 +36,7 @@ body {
 	line-height: 1;
     font-family: 'Source Sans 3';
     overflow-x: hidden;
+    color: #302D2D;
 }
 a {
     text-decoration: none;
@@ -59,6 +60,17 @@ table {
 h1 {
     font-size: 62px;
     font-weight: 700;  
+}
+
+.def-title {
+    font-size: 46px;
+    line-height: 55px;
+    margin-bottom: 30px;
+}
+
+.def-title .title-bold {
+    font-weight: 700;
+    color: #2378C9;
 }
 
 .container {
@@ -345,6 +357,54 @@ h1 {
 }
 
 /* Hero END */
+
+/* About START */
+.s-about {
+    padding: 110px 0;    
+}
+
+.about-row {
+    display: flex;
+    align-items: center;
+    column-gap: 60px;
+}
+
+.about-left img {
+    max-width: 488px;
+}
+
+.about-description {
+    font-size: 18px;
+    color: #686868; 
+    line-height: 28px; 
+    margin-bottom: 22px; 
+}
+
+.about-list-title {
+    font-size: 18px;
+    margin-bottom: 18px;
+}
+
+.about-list-wrap ul {
+    column-count: 2;
+}
+
+.about-list-wrap ul li {
+    font-size: 18px;
+    margin-bottom: 18px;
+}
+
+.about-list-wrap ul li::before {
+    content: '';
+    display: inline-block; 
+    width: 14px;
+    height: 14px;
+    border-radius: 100%;
+    background-color: #2378C9; 
+    margin-right: 18px;  
+}    
+
+/* About END */
 
 /* Responsive START */
 @media screen and (min-width: 851px) {

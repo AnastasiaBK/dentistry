@@ -411,7 +411,7 @@ h1 {
 /* About END */
 
 /* Responsive START */
-@media screen and (min-width: 851px) {
+@media screen and (min-width: 992px) {
     .hamburger {
         display: none;
     }
@@ -446,14 +446,14 @@ h1 {
     }
 }    
 
-@media screen and (max-width: 850px) {
-    /* Header 850 START */
+@media screen and (max-width: 992px) {
+    /* Header 992 START */
     .header-top-right,
     .menu-nav {
         display: none;
 
     }
-    /* Header 850 END */
+    /* Header 992 END */
 
     h1 {
         font-size: 40px;    
@@ -464,7 +464,7 @@ h1 {
         line-height: 48px;   
     }
 
-    /* Hero 850 START */
+    /* Hero 992 START */
     .s-hero {
         padding-top: 40px; 
         padding-bottom: 35px;   
@@ -512,9 +512,9 @@ h1 {
     .hero-logo {
         top: 100px;
     }
-    /* Hero 850 END */
+    /* Hero 992 END */
 
-    /* About 850 START */
+    /* About 992 START */
     .s-about {
         padding: 48px 0;
     }
@@ -551,7 +551,7 @@ h1 {
         height: 12px;
         margin-right: 14px;   
     }
-    /* About 850 END */
+    /* About 992 END */
 }
 
 @media screen and (max-width: 576px) {

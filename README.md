@@ -11,3 +11,7 @@ My copy: <https://www.figma.com/design/wDNnjn9QRCtuvgmfJIX7w1/Dental-Tooth-(Copy
 ## Section 3: Header Responsive Disign
 
 ## Section 4: Hero
+
+## Section 5: About
+
+## Section 6: Features

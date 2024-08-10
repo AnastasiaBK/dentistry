@@ -62,10 +62,20 @@ h1 {
     font-weight: 700;  
 }
 
+.def-title-wrap {
+    max-width: 470px;
+    margin: 0 auto 45px auto;  
+    text-align: center;  
+}
+
+.def-title-wrap .def-description {
+    font-weight: 300; 
+}
+
 .def-title {
     font-size: 46px;
     line-height: 55px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 .def-title .title-bold {
@@ -377,6 +387,10 @@ h1 {
     max-width: 680px;
 }
 
+.about-right .def-title {
+    text-align: left;
+}
+
 .about-description {
     font-size: 18px;
     color: #686868; 
@@ -450,6 +464,46 @@ h1 {
 }
 
 /* Features END */
+
+/* Team START */
+.s-team {
+    padding: 90px 0;
+}
+
+.team-row {
+    display: flex;
+    column-gap: 20px;   
+}
+
+.team-item {
+    width: 25%;
+    border-radius: 20px;   
+    box-shadow: 0px 0px 8px -1px rgba(29, 28, 28, 0.28); 
+    overflow: hidden;
+    display: block;
+    background-color: #2378C9;
+}
+
+.team-image img {
+    width: 100%;    
+}
+
+.team-footer {
+    padding: 22px 24px;
+    color: #fff;
+}
+
+.team-name {
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 7px;
+}
+
+.team-prof {
+    font-size: 14px;
+}
+
+/* Team END */
 
 /* Responsive START */
 @media screen and (min-width: 992px) {

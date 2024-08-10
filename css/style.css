@@ -83,6 +83,10 @@ h1 {
     color: #2378C9;
 }
 
+.def-description {
+    font-size: 14px;
+}
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -559,6 +563,11 @@ h1 {
         line-height: 48px;   
     }
 
+    .def-description {
+        font-size: 14px;
+        line-height: 1.5;
+    }
+
     /* Hero 992 START */
     .s-hero {
         padding-top: 40px; 
@@ -659,6 +668,23 @@ h1 {
         margin-bottom: 40px;
     }
     /* Features 992 END */
+
+    /* Team 992 START */
+    .s-team {
+        padding: 50px 0;    
+    }
+
+    .team-row {
+        flex-wrap: wrap;  
+        column-gap: 0; 
+        justify-content: space-between; 
+    }
+
+    .team-item {
+        width: 48.5%; 
+        margin-bottom: 18px;   
+    }
+    /* Team 992 END */
 }
 
 @media screen and (max-width: 576px) {
@@ -733,6 +759,24 @@ h1 {
         font-size: 15px;    
     }
     /* Features 576 END */
+
+    /* Team 576 START */
+    .team-item {
+        border-radius: 10px;
+    }
+
+    .team-footer {
+        padding: 15px;    
+    }
+
+    .team-name {
+        font-size: 16px;    
+    }
+
+    .team-prof {
+        font-size: 12px;    
+    }
+    /* Team 576 END */
 }
 
 /* Responsive END */

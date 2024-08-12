@@ -509,6 +509,42 @@ h1 {
 
 /* Team END */
 
+/* Quote START */
+.s-quote {
+    padding: 75px 0; 
+    background-repeat: no-repeat; 
+    background-size: 100%;  
+}
+
+.s-quote .def-title {
+    margin-bottom: 5px;    
+}
+
+.s-quote .def-title-wrap {
+    margin-bottom: 70px;
+}
+
+.quote-wrap {
+    background-color: #5EB8F0;
+    border-radius: 20px;  
+    padding: 40px 60px;  
+    display: inline-block;
+    color: #fff;
+}
+
+.quote-list-wrap li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px dashed #fff;
+    padding-bottom: 15px;
+}
+
+.quote-list-wrap li:nth-last-child(n+2) {
+    margin-bottom: 28px;    
+}
+/* Quote END */
+
 /* Responsive START */
 @media screen and (min-width: 992px) {
     .hamburger {

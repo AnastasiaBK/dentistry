@@ -513,7 +513,21 @@ h1 {
 .s-quote {
     padding: 75px 0; 
     background-repeat: no-repeat; 
-    background-size: 100%;  
+    background-size: cover;
+    background: linear-gradient(257.92deg, #DFEEFC 11.01%, rgba(167, 210, 251, 0.92) 92.77%);  
+    position: relative;
+}
+
+.s-quote::after {
+    content: '';
+    background-image: url('../images/tooth.png');
+    background-size: 100% 100%;
+    width: 731px;
+    height: 731px;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
 }
 
 .s-quote .def-title {

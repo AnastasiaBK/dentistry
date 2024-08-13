@@ -544,6 +544,8 @@ h1 {
     padding: 40px 60px;  
     display: inline-block;
     color: #fff;
+    position: relative;
+    z-index: 1;
 }
 
 .quote-list-wrap li {
@@ -556,6 +558,10 @@ h1 {
 
 .quote-list-wrap li:nth-last-child(n+2) {
     margin-bottom: 28px;    
+}
+
+.quote-list-wrap li span:last-child {
+    font-weight: 700;        
 }
 /* Quote END */
 
@@ -827,6 +833,30 @@ h1 {
         font-size: 12px;    
     }
     /* Team 576 END */
+
+    /* Quote 576 START */
+    .s-quote {
+        padding: 50px 0;    
+    }
+
+    .s-quote::after {
+        display: none;
+    }
+
+    .def-title-wrap .def-description {
+        margin-bottom: 50px;    
+    }
+
+    .quote-wrap {
+        width: 100%;
+        padding: 40px 30px;
+        border-radius: 10px;
+    }
+
+    .quote-list-wrap li {
+        padding-bottom: 5px;    
+    }
+    /* Quote 576 END */
 }
 
 /* Responsive END */

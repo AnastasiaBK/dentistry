@@ -61,6 +61,9 @@ h1 {
     font-size: 62px;
     font-weight: 700;  
 }
+strong {
+    font-weight: 700;    
+}
 
 .def-title-wrap {
     max-width: 470px;
@@ -564,6 +567,81 @@ h1 {
     font-weight: 700;        
 }
 /* Quote END */
+
+/* Blog START */
+.s-blog {
+    padding: 100px 0;    
+}
+
+.blog-row {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;    
+}
+
+.blog-post {
+    padding: 15px;
+    /*padding-bottom: 37px;*/
+    background-color: #F6F6F6;  
+    border-radius: 20px;      
+}
+
+.blog-post-thumb {
+    border-radius: 19px;
+    overflow: hidden; 
+    margin-bottom: 25px;   
+}
+
+.blog-post-thumb img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    display: block;   
+}
+
+.blog-post-body {
+    padding: 0 15px 15px 15px;
+}
+
+.blog-post-top-line {
+    margin-bottom: 15px; 
+    display: flex;
+    justify-content: space-between;  
+    align-items: center; 
+    color: #A9A9A9;
+    font-size: 14px;
+}
+
+.blog-post-top-line strong {
+    color: #302D2D;
+}
+
+.blog-post-title {
+    font-size: 22px;
+    margin-bottom: 16px;
+}
+
+.blog-post-title a {
+    color: #302D2D;
+}
+
+.blog-post-descr {
+    color: #56565E;
+    margin-bottom: 25px;
+    font-size: 16px;
+}
+
+.blog-post-readmore {
+    background-color: #5EB8F0;
+    border-radius: 30px;
+    font-size: 18px;
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 15px;
+    color: #fff;
+}
+/* Blog END */
 
 /* Responsive START */
 @media screen and (min-width: 992px) {

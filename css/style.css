@@ -580,10 +580,11 @@ strong {
 }
 
 .blog-post {
-    padding: 15px;
+    padding: 15px 15px 50px 15px;
     /*padding-bottom: 37px;*/
     background-color: #F6F6F6;  
-    border-radius: 20px;      
+    border-radius: 20px;   
+    position: relative;   
 }
 
 .blog-post-thumb {
@@ -618,6 +619,7 @@ strong {
 
 .blog-post-title {
     font-size: 22px;
+    line-height: 1.2;
     margin-bottom: 16px;
 }
 
@@ -629,6 +631,7 @@ strong {
     color: #56565E;
     margin-bottom: 25px;
     font-size: 16px;
+    line-height: 1.2;
 }
 
 .blog-post-readmore {
@@ -636,10 +639,14 @@ strong {
     border-radius: 30px;
     font-size: 18px;
     display: block;
-    width: 100%;
+    width: calc(100% - 60px);
     text-align: center;
     padding: 15px;
     color: #fff;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
 }
 /* Blog END */
 
@@ -819,6 +826,13 @@ strong {
         margin-bottom: 18px;   
     }
     /* Team 992 END */
+
+    /* Blog 992 START */
+    .blog-row {
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 15px;    
+    }
+    /* Blog 992 END */
 }
 
 @media screen and (max-width: 576px) {
@@ -935,6 +949,57 @@ strong {
         padding-bottom: 5px;    
     }
     /* Quote 576 END */
+
+    /* Blog 576 START */
+    .s-blog {
+        padding: 50px 0;
+    }
+
+    .s-blog .def-title {
+        margin-bottom: 0;    
+    }
+
+    .s-blog .def-title-wrap {
+        margin-bottom: 30px;    
+    }
+
+    .blog-row {
+        grid-auto-flow: column; 
+        padding: 10px;
+        overflow-x: auto;
+        width: calc(100% + 20px);
+        padding-right: 20px;
+    }
+
+    .blog-post {
+        min-width: 300px;
+        border-radius: 10px;
+        padding: 10px 10px 50px 10px;
+    }
+
+    .blog-post-thumb {
+        border-radius: 10px;    
+    }
+
+    .blog-post-body {
+        padding: 0 8px, 8px, 8px;    
+    }
+
+    .blog-post-title {
+        font-size: 20px;
+    }
+
+    .blog-post-descr {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .blog-post-readmore {
+        width: calc(100% - 32px);
+        font-size: 16px;
+        padding: 14px;
+    }
+    /* Blog 576 END */
 }
 
 /* Responsive END */

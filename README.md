@@ -19,3 +19,5 @@ My copy: <https://www.figma.com/design/wDNnjn9QRCtuvgmfJIX7w1/Dental-Tooth-(Copy
 ## Section 7: Quote
 
 ## Section 8: Blog
+
+## Section 9: Reviews

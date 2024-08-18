@@ -6,4 +6,14 @@ $(document).ready(function() {
     $('.mobile-menu-close').on('click', function() {
         $('.mobile-menu').removeClass('is-active');    
     });
+
+    // Reviews Swiper START
+    const reviewsSwiper = new Swiper('.reviews-swiper', {
+        loop: true,
+        navigation: {
+          nextEl: '.reviews-swiper .swiper-button-next',
+          prevEl: '.reviews-swiper .swiper-button-prev',
+        },
+    });
+    // Reviews Swiper END
 });

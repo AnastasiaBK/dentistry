@@ -650,6 +650,18 @@ strong {
 }
 /* Blog END */
 
+/* Reviews START */
+.s-reviews {
+    padding: 90px 0;    
+}
+
+.reviews-wrap {
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 20px;
+    padding: 55px 30px 80px 30px;    
+}
+/* Reviews END */
+
 /* Responsive START */
 @media screen and (min-width: 992px) {
     .hamburger {

@@ -14,6 +14,7 @@ $(document).ready(function() {
           nextEl: '.reviews-swiper .swiper-button-next',
           prevEl: '.reviews-swiper .swiper-button-prev',
         },
+        speed: 1000
     });
     // Reviews Swiper END
 });

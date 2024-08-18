@@ -660,6 +660,120 @@ strong {
     border-radius: 20px;
     padding: 55px 30px 80px 30px;    
 }
+
+.reviews-row {
+    display: flex;
+    max-width: 780px;
+    margin: 0 auto;
+}
+
+.reviews-avatar {
+    border-radius: 100%;
+    min-width: 240px;
+    height: 240px;
+    overflow: hidden;
+    margin-right: 42px;
+}
+
+.reviews-avatar img {
+    width: 100%;  
+    height: 100%; 
+    object-fit: cover; 
+}
+
+.reviews-text {
+    color: #686868; 
+    font-size: 18px;  
+    margin-bottom: 35px; 
+    line-height: 1.5;
+}
+
+.reviews-bottom {
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;   
+}
+
+.reviews-name {
+    font-size: 22px; 
+    color: #2378C9;  
+    font-weight: 700; 
+}
+
+.reviews-social {
+    display: flex;
+    align-items: center;    
+}
+
+.reviews-social a {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px; 
+    border-radius: 100%;
+    background-color: #E7E7E7;
+    text-align: center;
+    transition: background-color 0.5s ease; 
+}
+
+.reviews-social a:nth-last-child(n+2) {
+    margin-right: 20px;
+}
+
+.reviews-social a svg path {
+    fill: #2378C9;
+    transition: fill 0.5s ease;
+}
+
+.reviews-social a:hover {
+    background-color: #2378C9;    
+}
+
+.reviews-social a:hover svg path {
+    fill: #fff;
+}
+
+.reviews-swiper {
+    overflow: visible;    
+}
+
+.s-reviews .swiper-button-prev,
+.s-reviews .swiper-button-next 
+ {
+    color: #fff; 
+    background-color: #C5C1FE;   
+    border-radius: 100%;
+    min-width: 60px;
+    height: 60px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.s-reviews .swiper-button-prev {
+    left: -60px;    
+}
+
+.s-reviews .swiper-button-next {
+    right: -60px;    
+}
+ 
+.s-reviews .swiper-button-prev:after,
+.s-reviews .swiper-button-next:after {
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.s-reviews .swiper-slide{
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.5s ease-in-out, visibility 0.5s ease-on-out;
+}
+
+.s-reviews .swiper-slide-active {
+    opacity: 1;
+    visibility: visible;
+}
 /* Reviews END */
 
 /* Responsive START */

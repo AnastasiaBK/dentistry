@@ -652,7 +652,9 @@ strong {
 
 /* Reviews START */
 .s-reviews {
-    padding: 90px 0;    
+    padding: 90px 0; 
+    background-color: rgba(50, 48, 48, 0.39); 
+    background-blend-mode: overlay;
 }
 
 .reviews-wrap {

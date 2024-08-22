@@ -32,11 +32,14 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+html, body {
+    overflow-x: hidden;
+}
 body {
 	line-height: 1;
     font-family: 'Source Sans 3';
-    overflow-x: hidden;
     color: #302D2D;
+    position: relative;
 }
 a {
     text-decoration: none;
@@ -652,7 +655,7 @@ strong {
 
 /* Reviews START */
 .s-reviews {
-    padding: 90px 0; 
+    padding: 90px 30px; 
     background-color: rgba(50, 48, 48, 0.39); 
     background-blend-mode: overlay;
 }
@@ -979,6 +982,29 @@ strong {
     /* Blog 992 END */
 }
 
+@media screen and (max-width: 768px) {
+    /* Reviews 768 START */
+    .s-reviews .swiper-button-prev,
+    .s-reviews .swiper-button-next {
+        min-width: 50px;
+        height: 50px;
+    }
+
+    .s-reviews .swiper-button-prev {
+        left: -55px;    
+    }
+
+    .s-reviews .swiper-button-next {
+        right: -55px;
+    }  
+
+    .reviews-avatar {
+        min-width: 200px; 
+        height: 200px;   
+    }
+    /* Reviews 768 END */
+}    
+
 @media screen and (max-width: 576px) {
     .def-title {
         font-size: 30px; 
@@ -1144,6 +1170,42 @@ strong {
         padding: 14px;
     }
     /* Blog 576 END */
+
+    /* Reviews 576 START */
+    .s-reviews {
+        padding: 50px 10px;
+    }
+
+    .reviews-wrap {
+        padding: 30px 20px;
+    }
+
+    .reviews-row {
+        display: block; 
+    }   
+    
+    .s-reviews .swiper-button-prev {
+        left: -45px;    
+    }
+
+    .s-reviews .swiper-button-next {
+        right: -45px;
+    }  
+
+    .reviews-avatar {
+        max-width: 200px; 
+        margin: 0 auto 24px auto;  
+    }
+
+    .reviews-name {
+        font-size: 18px;
+    }
+
+    .reviews-text {
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+    /* Reviews 576 END */
 }
 
 /* Responsive END */

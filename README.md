@@ -4,24 +4,28 @@ Figma Mockup: <https://www.figma.com/design/WjnwBRD9PtYZcNIcOs89YF/Dental-Tooth?
 
 My copy: <https://www.figma.com/design/wDNnjn9QRCtuvgmfJIX7w1/Dental-Tooth-(Copy)?node-id=0-1&t=3Spj5yi4GkBPL15R-0>
 
-## Section 1: Header Top
+## Landing Page
 
-## Section 2: Header Bottom
+### Section 1: Header Top
 
-## Section 3: Header Responsive Design
+### Section 2: Header Bottom
 
-## Section 4: Hero
+### Section 3: Header Responsive Design
 
-## Section 5: About
+### Section 4: Hero
 
-## Section 6: Features & Team
+### Section 5: About
 
-## Section 7: Quote
+### Section 6: Features & Team
 
-## Section 8: Blog
+### Section 7: Quote
 
-## Section 9: Reviews
+### Section 8: Blog
 
-## Section 10: Reviews Responsive Design
+### Section 9: Reviews
 
-## Section 11: Form Schedule Appointment
+### Section 10: Reviews Responsive Design
+
+### Section 11: Form Schedule Appointment
+
+### Section 12: Footer

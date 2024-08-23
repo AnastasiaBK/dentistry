@@ -820,6 +820,8 @@ strong {
     padding: 58px 50px;
     display: inline-block;
     max-width: 425px;
+    position: relative;
+    z-index: 1;
 }
 
 .form-title {
@@ -1083,6 +1085,20 @@ strong {
         height: 200px;   
     }
     /* Reviews 768 END */
+
+    /* Form 768 START */
+    .s-form .container {
+        padding: 50px 20px;
+    }
+
+    .form-wrap {
+        margin: 0 auto;    
+    }
+
+    .form-image {
+        display: none;
+    }
+    /* Form 768 END */
 }    
 
 @media screen and (max-width: 576px) {
@@ -1286,6 +1302,23 @@ strong {
         margin-bottom: 20px;
     }
     /* Reviews 576 END */
+
+    /* Form 576 START */
+    .form-wrap {
+        padding: 40px 30px;  
+    } 
+    
+    .form-title {
+        font-size: 24px;
+    }
+
+    .form-wrap input {
+        font-size: 16px;    
+    }
+
+    .form-agree {
+        font-size: 12px;
+    /* Form 576 END */
 }
 
 /* Responsive END */

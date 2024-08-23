@@ -8,7 +8,7 @@ My copy: <https://www.figma.com/design/wDNnjn9QRCtuvgmfJIX7w1/Dental-Tooth-(Copy
 
 ## Section 2: Header Bottom
 
-## Section 3: Header Responsive Disign
+## Section 3: Header Responsive Design
 
 ## Section 4: Hero
 
@@ -22,6 +22,6 @@ My copy: <https://www.figma.com/design/wDNnjn9QRCtuvgmfJIX7w1/Dental-Tooth-(Copy
 
 ## Section 9: Reviews
 
-## Section 10: Reviews Responsive Disign
+## Section 10: Reviews Responsive Design
 
 ## Section 11: Form Schedule Appointment

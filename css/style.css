@@ -361,6 +361,7 @@ strong {
     width: 100%;
     position: relative;
     z-index: 1;
+    display: block;
 }
 
 .hero-circle {
@@ -876,6 +877,10 @@ strong {
     position: absolute;
     bottom: 0;
     right: 0;
+}
+
+.form-image img {
+    display: block;
 }
 /* Form END */
 

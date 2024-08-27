@@ -27,3 +27,5 @@ My copy: <https://www.figma.com/design/wDNnjn9QRCtuvgmfJIX7w1/Dental-Tooth-(Copy
 ### Section 10: Form Schedule Appointment
 
 ### Section 11: Footer
+
+## Blog Page

@@ -99,6 +99,39 @@ strong {
     padding: 0 20px;
 }
 
+.s-breadcrumbs {
+    background-color: #DFEEFC;
+    padding: 25px 0;
+    text-align: center;
+}
+
+.s-breadcrumbs ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.s-breadcrumbs ul li {
+    display: flex;    
+}
+
+.s-breadcrumbs ul li:nth-last-child(n+2) {
+    margin-right: 10px;    
+}
+
+.s-breadcrumbs ul li a{
+    color: #302D2D; 
+    display: flex;
+    align-items: center;      
+}
+
+.s-breadcrumbs ul li a svg{
+    vertical-align: middle;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
 /* Header START */
 .header-top {
     background-color: #2378C9; 
@@ -883,6 +916,10 @@ strong {
     display: block;
 }
 /* Form END */
+
+/* Blog Page START */
+
+/* Blog Page END */
 
 /* Footer START */
 .footer {

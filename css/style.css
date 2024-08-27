@@ -127,8 +127,8 @@ strong {
 
 .s-breadcrumbs ul li a svg{
     vertical-align: middle;
-    width: 20px;
-    height: 20px;
+    width: 16px;
+    height: 16px;
     margin-right: 10px;
 }
 
@@ -918,7 +918,9 @@ strong {
 /* Form END */
 
 /* Blog Page START */
-
+.p-blog {
+    padding: 50px 0;    
+}
 /* Blog Page END */
 
 /* Footer START */
@@ -1267,6 +1269,11 @@ strong {
         line-height: 38px;   
     }
 
+    .s-breadcrumbs {
+        padding: 18px 0;
+        font-size: 14px;
+    }
+
     /* Header 576 START */
     .header-top-location {
         font-size: 12px;  
@@ -1480,6 +1487,18 @@ strong {
         font-size: 12px;
     }
     /* Form 576 END */
+
+    /* Blog Page 576 START */
+    .p-blog .blog-row {
+        overflow-x: hidden;
+        grid-auto-flow: row;
+        grid-template-columns: 1fr;   
+    }
+
+    .p-blog .blog-item {
+        min-width: auto;
+    }   
+    /* Blog Page 576 END */
 
     /* Footer 576 START */
     .footer-logo {

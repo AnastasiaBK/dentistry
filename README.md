@@ -29,3 +29,5 @@ My copy: <https://www.figma.com/design/wDNnjn9QRCtuvgmfJIX7w1/Dental-Tooth-(Copy
 ### Section 11: Footer
 
 ## Blog Page
+
+## Post Single Page

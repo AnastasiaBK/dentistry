@@ -984,6 +984,55 @@ strong {
     line-height: 1.5;
 }
 
+.single-content {
+    margin-bottom: 60px;    
+}
+
+.single-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.single-nav a {
+    color: #302D2D;    
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    transition: 0.35s ease;
+}
+
+.single-nav a:hover {
+    color: #2378C9;    
+}
+
+.single-nav a svg {
+    vertical-align: middle;   
+    transition: 0.35s ease;
+}
+
+.single-nav-line {
+    display: inline-block;
+    width: 1px;
+    height: 47px;
+    background-color: #E2DFDF;
+}
+
+.single-nav a:first-child svg {
+    margin-right: 25px;
+}
+
+.single-nav a:first-child:hover svg {
+    transform: translateX(-10px);
+}
+
+.single-nav a:last-child svg {
+    margin-left: 25px;
+}
+
+.single-nav a:last-child:hover svg {
+    transform: translateX(10px);
+}
 /* Blog Post END */
 
 /* Footer START */

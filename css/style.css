@@ -1033,6 +1033,10 @@ strong {
 .single-nav a:last-child:hover svg {
     transform: translateX(10px);
 }
+
+.s-comments input {
+
+}
 /* Blog Post END */
 
 /* Footer START */

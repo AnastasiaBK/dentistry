@@ -936,6 +936,10 @@ strong {
 
 .single-thumbnail img{
     display: block;
+    object-fit: cover;
+    object-position: center center;
+    width: 100%;
+    height: 100%;
 }    
 
 .s-single .blog-post-top-line{
@@ -1055,6 +1059,7 @@ strong {
 .comments-form{
     max-width: 488px;
     width: 100%;
+    margin-right: 25px;
 }
 
 .s-comments input, 
@@ -1069,6 +1074,9 @@ strong {
     outline: none;
 }
 
+.s-comments textarea {
+    height: 256px;
+}
 .s-comments input::placeholder, 
 .s-comments textarea::placeholder {
     color: #B9B9B9;    
@@ -1111,7 +1119,7 @@ strong {
 .comment-author{
     overflow: hidden;
     border-radius: 100%;
-    width: 120px;
+    min-width: 120px;
     height: 120px;
     margin-right: 20px;
 }
@@ -1420,6 +1428,21 @@ strong {
     }
     /* Blog 992 END */
 
+    /* Post Page 992 START */
+    .single-nav {
+        flex-direction: column;
+        padding-bottom: 50px;
+    }
+
+    .single-nav-line {
+        display: none;
+    }
+
+    .single-nav a:first-child {
+        margin-bottom: 20px;
+    }
+    /* Post Page 992 END */
+
     /* Footer 992 START */
     .footer-row {
         flex-direction: column;    
@@ -1485,6 +1508,21 @@ strong {
         display: none;
     }
     /* Form 768 END */
+
+    /* Post Page 768 START */
+    .comments-row {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .comments-form {
+        max-width: none;
+    }
+
+    .comments {
+        margin: 30px 0 0 0;
+    }
+    /* Post Page 768 END */
 }    
 
 @media screen and (max-width: 576px) {
@@ -1723,6 +1761,36 @@ strong {
         min-width: auto;
     }   
     /* Blog Page 576 END */
+
+    /* Post Page 576 START */
+    .single-title {
+        font-size: 36px;   
+    }
+
+    .s-single {
+        padding: 30px 0;
+    }
+
+    .single-thumbnail {
+        border-radius: 10px;
+        margin-bottom: 20px;
+    }
+
+    .comments-title {
+        text-align: center;
+        font-size: 32px; 
+        margin-bottom: 30px;
+    }
+
+    .comments-count {
+        font-size: 16px;
+    }
+
+    .comment-author {
+        min-width: 90px;
+        height: 90px;    
+    }
+    /* Post Page 576 END */
 
     /* Footer 576 START */
     .footer-logo {

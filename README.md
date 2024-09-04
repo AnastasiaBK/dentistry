@@ -31,3 +31,5 @@ My copy: <https://www.figma.com/design/wDNnjn9QRCtuvgmfJIX7w1/Dental-Tooth-(Copy
 ## Blog Page
 
 ## Post Single Page
+
+## Contact Us Page

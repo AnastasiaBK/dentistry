@@ -1155,6 +1155,63 @@ strong {
 }
 /* Blog Post END */
 
+/* Contact Us Page START */
+.s-contacts {
+    padding: 60px 0;
+}
+.s-contacts .def-title {
+    text-align: center;
+}
+
+.contacts-row {
+    display: flex;
+    column-gap: 20px;
+}
+
+.contacts-item {
+    width: 25%; 
+    padding: 50px 30px;  
+    border-radius: 5px; 
+    color: #fff;
+    text-align: center;
+}
+
+.contacts-item:nth-child(1) {
+    background-color: #5EB8F0;
+}
+
+.contacts-item:nth-child(2) {
+    background-color: #54A0CF;
+}
+
+.contacts-item:nth-child(3) {
+    background-color: #29A9F9;
+}
+
+.contacts-item:nth-child(4) {
+    background-color: #328DC6;
+}
+
+.contacts-icon {
+    margin-bottom: 20px;
+}
+
+.contacts-icon img {
+    width: 45px;    
+}
+
+.contacts-name {
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 12px;    
+}
+
+.contacts-descr {
+    font-size: 16px;
+}
+
+/* Contact Us Page END */
+
 /* Footer START */
 .footer {
     background-color: #10406F;

@@ -1210,6 +1210,10 @@ strong {
     font-size: 16px;
 }
 
+.contacts-descr .header-top-social{
+    justify-content: center;
+}    
+
 /* Contact Us Page END */
 
 /* Footer START */

@@ -1173,6 +1173,10 @@ strong {
     padding: 50px 30px;  
     border-radius: 5px; 
     color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     text-align: center;
 }
 

@@ -1166,6 +1166,7 @@ strong {
 .contacts-row {
     display: flex;
     column-gap: 20px;
+    margin-bottom: 60px;
 }
 
 .contacts-item {
@@ -1216,7 +1217,7 @@ strong {
 
 .contacts-descr .header-top-social{
     justify-content: center;
-}    
+} 
 
 /* Contact Us Page END */
 

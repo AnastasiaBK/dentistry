@@ -1554,6 +1554,17 @@ strong {
     }
     /* Post Page 992 END */
 
+    /* Contact Us Page 992 START */
+    .contacts-row {
+        flex-wrap: wrap;
+        column-gap: 0;
+        gap: 20px;
+    }
+    .contacts-item {
+        width: 48%;
+    }
+    /* Contact Us Page 992 END */
+
     /* Footer 992 START */
     .footer-row {
         flex-direction: column;    
@@ -1903,6 +1914,43 @@ strong {
     }
     /* Post Page 576 END */
 
+    /* Contact Us Page 576 START */
+    .s-contacts {
+        padding: 40px 0;
+    }
+
+    .contacts-row {
+        gap: 10px;
+    }
+
+    .contacts-item {
+        width: calc(50% - 5px);
+        padding: 40px 20px;
+    }
+
+    .contacts-item img {
+        width: 30px;    
+    } 
+    
+    .contacts-icon {
+        margin-bottom: 10px;
+    }
+
+    .contacts-name {
+        font-size: 18px;
+    }
+
+    .contacts-descr {
+        font-size: 14px;
+    }
+
+    .s-contacts input,
+    .s-contacts textarea {
+        font-size: 16px;
+        padding: 15px 20px;
+    }
+    /* Contact Us Page 576 END */
+
     /* Footer 576 START */
     .footer-logo {
         text-align: center;  
@@ -1934,6 +1982,18 @@ strong {
         margin-bottom: 30px;
     }
     /* Footer 576 END */
+}
+
+@media screen and (max-width: 360px) {
+    /* Contact Us Page 360 START */
+    .contacts-row {
+        column-gap: 0;
+    } 
+
+    .contacts-item {
+        width: 100%;
+    } 
+    /* Contact Us Page 360 END */  
 }
 
 /* Responsive END */

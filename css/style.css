@@ -1268,13 +1268,13 @@ strong {
 
 /* Dentist Page START */
 .s-dentist {
-    padding: 60px 0;
+    padding: 60px 0 0 0;
 }
 
 .dentist-row {
     display: flex;
     align-items: center;
-    margin-bottom: 60px;
+    margin-bottom: 70px;
 }
 
 .dentist-left {
@@ -1315,6 +1315,23 @@ strong {
     border-radius: 100%;
     background-color: #5EB8F0; 
     margin-right: 10px;  
+}
+
+.dentist-contacts-row .contacts-item {
+    width: 33.3%;
+    padding: 80px 50px;
+}
+
+.dentist-contacts-row .contacts-item:nth-child(1) {
+    background-color: #54A0CF;
+}
+
+.dentist-contacts-row .contacts-item:nth-child(2) {
+    background-color: #29A9F9;
+}
+
+.dentist-contacts-row .contacts-item:nth-child(3) {
+    background-color: #328DC6;
 }
 /* Dentist Page END */
 

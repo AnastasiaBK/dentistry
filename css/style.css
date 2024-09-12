@@ -1266,6 +1266,58 @@ strong {
 
 /* Contact Us Page END */
 
+/* Dentist Page START */
+.s-dentist {
+    padding: 60px 0;
+}
+
+.dentist-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.dentist-left {
+    margin-right: 64px;
+    box-shadow: -1px 1px 11px 3px rgba(46, 44, 44, 0.21);
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.dentist-left img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.dentist-list {
+    margin-bottom: 32px;
+    color: #56565E;
+}
+
+.dentist-list-title {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 16px; 
+}
+
+.dentist-list ul li {
+    font-size: 18px; 
+    line-height: 1.5;   
+}
+
+.dentist-list ul li::before {
+    content: '';
+    display: inline-block; 
+    width: 9px;
+    height: 9px;
+    border-radius: 100%;
+    background-color: #5EB8F0; 
+    margin-right: 10px;  
+}
+/* Dentist Page END */
+
 /* Footer START */
 .footer {
     background-color: #10406F;

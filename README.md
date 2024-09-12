@@ -34,4 +34,4 @@ My copy: <https://www.figma.com/design/wDNnjn9QRCtuvgmfJIX7w1/Dental-Tooth-(Copy
 
 ## Contact Us Page
 
-## Stomatologist Page
+## Dentist Page

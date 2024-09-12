@@ -1634,6 +1634,20 @@ strong {
     }
     /* Contact Us Page 992 END */
 
+    /* Dentist Page 992 START */
+    .dentist-left {
+        margin-right: 30px;    
+    }
+
+    .dentist-contacts-row .contacts-item {
+        width: 48%;
+    }
+
+    .dentist-contacts-row .contacts-item:nth-child(3) {
+        width: 100%;    
+    }
+    /* Dentist Page 992 END */
+
     /* Footer 992 START */
     .footer-row {
         flex-direction: column;    
@@ -2019,6 +2033,38 @@ strong {
         padding: 15px 20px;
     }
     /* Contact Us Page 576 END */
+
+    /* Dentist Page 576 START */
+    .dentist-row {
+        flex-direction: column;
+        margin-bottom: 30px;    
+    }
+
+    .dentist-left {
+        margin-right: 0;
+        margin-bottom: 25px;
+    }
+
+    .dentist-right {
+        width: 100%;
+    }
+
+    .dentist-list {
+        margin-bottom: 10px;
+    }
+
+    .dentist-list-title {
+        font-size: 16px;
+    }
+
+    .dentist-list ul li {
+        font-size: 14px;
+    }
+
+    .dentist-contacts-row .contacts-item {
+        width: 100%;
+    } 
+    /* Dentist Page 576 END */
 
     /* Footer 576 START */
     .footer-logo {

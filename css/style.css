@@ -2107,6 +2107,23 @@ strong {
     } 
     /* Dentist Page 576 END */
 
+    /* 404 Page 576 START */
+    .not-found-wrap img {
+        max-width: 260px;
+        width: 100%;
+    }
+
+    .not-found-content {
+        padding: 30px;
+        font-size: 14px;
+    }
+
+    .not-found-title {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    /* 404 Page 576 END */
+
     /* Footer 576 START */
     .footer-logo {
         text-align: center;  

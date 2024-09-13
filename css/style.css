@@ -1335,6 +1335,47 @@ strong {
 }
 /* Dentist Page END */
 
+/* 404 Page START */
+.s-not-found {
+    padding-top: 60px;
+    background: linear-gradient(257.92deg, #DFEEFC 11.01%, rgba(167, 210, 251, 0.92) 92.77%);  
+    position: relative;
+}
+
+.not-found-wrap {
+    text-align: center;
+}
+
+.not-found-wrap img {
+    max-width: 360px;
+}
+
+.not-found-content {
+    background: linear-gradient(257.92deg, rgba(223, 238, 252, 0.9) 11.01%, rgba(167, 210, 251, 0.95) 92.77%);    
+    box-shadow: 0px 5px 8px 2px rgba(18, 17, 17, 0.13);
+    border-radius: 50px 50px 0px 0px;
+    padding: 40px;
+    max-width: 550px;
+    width: 100%;
+    font-size: 16px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.not-found-title {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+.not-found-content a {
+    color: #302D2D;
+    text-decoration: underline;
+}
+/* 404 Page END */
+
 /* Footer START */
 .footer {
     background-color: #10406F;

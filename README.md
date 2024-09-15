@@ -37,3 +37,5 @@ My copy: <https://www.figma.com/design/wDNnjn9QRCtuvgmfJIX7w1/Dental-Tooth-(Copy
 ## Dentist Page
 
 ## 404 Page
+
+## Modal Window

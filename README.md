@@ -39,3 +39,5 @@ My copy: <https://www.figma.com/design/wDNnjn9QRCtuvgmfJIX7w1/Dental-Tooth-(Copy
 ## 404 Page
 
 ## Modal Window
+
+Magnific Popup (js & css)

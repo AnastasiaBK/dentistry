@@ -17,4 +17,9 @@ $(document).ready(function() {
         speed: 1000
     });
     // Reviews Swiper END
+
+    $('.header-bottom-btn').magnificPopup({
+            type:'inline'
+    });
+
 });

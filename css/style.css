@@ -132,6 +132,55 @@ strong {
     margin-right: 10px;
 }
 
+/* Callback START */
+.mfp-bg {
+    background: rgba(48, 45, 45, 0.45);    
+}
+
+.callback-popup {
+    background-color: #fff;
+    box-shadow: 0px 0px 8px 2px rgba(108, 108, 108, 0.25);
+    border-radius: 20px;
+    display: block;
+    max-width: 425px;
+    position: relative;
+    z-index: 1;
+    margin: 0 auto;
+}
+
+.callback-popup .form-wrap {
+    padding: 0;
+    box-shadow: none;
+    border-radius: 0;
+    max-width: 100%;
+}
+
+.callback-header {
+    padding: 18px 28px;  
+    border-bottom: 1px solid #F0F0F0;  
+}
+
+.callback-logo img {
+    max-width: 100px;
+}
+
+.callback-button .mfp-close {
+    right: 20px;
+    top: 8px;
+}
+
+.callback-body {
+    padding: 18px 28px 36px 28px;
+}
+
+.callback-form-title {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+/* Callback END */
+
+
 /* Header START */
 .header-top {
     background-color: #2378C9; 
@@ -900,6 +949,7 @@ strong {
 .form-agree {
     max-width: 280px;
     font-size: 14px;
+    font-weight: 300;
     color: #747474;
     line-height: 1.5;
     text-align: center;

@@ -133,6 +133,10 @@ strong {
 }
 
 /* Callback START */
+.mfp-contentainer {
+    padding: 50px 20px;
+}
+
 .mfp-bg {
     background: rgba(48, 45, 45, 0.45);    
 }
@@ -2033,6 +2037,16 @@ strong {
         padding: 18px 0;
         font-size: 14px;
     }
+
+    /* Callback 576 START */
+    .callback-form-title {
+        font-size: 20px;
+    }
+
+    .form-wrap input[type="submit"] {
+        font-size: 14px;    
+    }
+    /* Callback 576 END */
 
     /* Header 576 START */
     .header-top-location {

@@ -19,7 +19,13 @@ $(document).ready(function() {
     // Reviews Swiper END
 
     $('.header-bottom-btn').magnificPopup({
-            type:'inline'
+            type:'inline',
+            removalDelay: 700,
+            callbacks: {
+                beforeOpen: function() {
+                    this.st.mainClass = this.st.el.attr('data-effect');
+                }
+            }
     });
 
 });
